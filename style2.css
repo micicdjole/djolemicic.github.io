@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(155, 155, 155), rgb(85, 85, 85));
+}
+.nav{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgb(141, 141, 141);
+
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.meni{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li span{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li a:hover{
+    color: aqua;
+}
+#okvir{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tekst{
+    float: left;
+    width: 40%;
+    padding-top: 45px;
+}
+
+.tekst p{
+    line-height: 20px;
+    text-align: justify;
+}
+.slika{
+    float: right;
+    width: 55%;
+}
+.slika img{
+    width: 30%;
+}
+.column {
+    float: left;
+    width: 50%;
+    flex: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  .column p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column img{
+    width: 30%;
+    
+  }

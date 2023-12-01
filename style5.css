@@ -1,0 +1,60 @@
+
+.nav{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(88, 88, 88);
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.meni{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li span{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li a:hover{
+    color: aqua;
+}
+.main{
+background-image: linear-gradient(to bottom right, rgb(155, 155, 155), rgb(85, 85, 85));
+}

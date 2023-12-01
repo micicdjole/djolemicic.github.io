@@ -1,0 +1,164 @@
+
+.nav{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(88, 88, 88);
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.meni{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li span{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li a:hover{
+    color: aqua;
+}
+.main{
+background-image: linear-gradient(to bottom right, rgb(155, 155, 155), rgb(85, 85, 85));
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.forma{
+    width:250px;
+    height:380px;
+    background:linear-gradient(to top,rgb(155, 155, 155), rgb(85, 85, 85)50%);
+    position:absolute;
+    top:-20px;
+    left:870px;
+    transform:translate(0%,-5%);
+    border-radius:10px;
+    padding:25px;
+    margin-top: 150px;
+}
+
+.forma h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(155, 155, 155);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.forma input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+.forma input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.dugmee{
+    width: 240px;
+    height: 40px;
+    background: rgb(155, 155, 155);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.dugmee:hover{
+    background: #fff;
+    color: rgb(155, 155, 155);
+}
+.dugmee a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.forma .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.forma .link a{
+    text-decoration: none;
+    color: aqua;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: rgb(155, 155, 155);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: aqua;
+}

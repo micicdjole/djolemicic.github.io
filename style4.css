@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+.nav{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgb(141, 141, 141);
+
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.meni{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+ul #poslednji{
+    margin-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li span{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s  ease-in-out;
+}
+ul li a:hover{
+    color: aqua;
+}
+.main{
+background-image: linear-gradient(to bottom right, rgb(141, 141, 141), rgb(85, 85, 85));
+
+
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  background-color:  rgb(141, 141, 141);
+}
+
+
+.main {
+  max-width: 1000px;
+  margin-left: 315px;
+  background-color:  rgb(0, 0, 0);
+
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: rgb(201, 201, 201);
+  padding: 10px;
+  height: 800px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.lista{
+    text-align: center;
+    
+}
+.boldtext{
+  font-weight: bold;
+  
+}
+.content p{
+  padding-bottom: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+.content2 {
+  background-color: rgb(201, 201, 201);
+  padding: 10px;
+  height: 650px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tekst{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.naslov{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.naslov1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
